@@ -17,13 +17,12 @@ function verificarImc(imc){
     }
 }
 
-function main(){
+//Main
+(function () {
     const altura = 1.70;
     const peso = 70;
 
     const imc = calcularImc(altura, peso);
     console.log('O valor do imc é ' + imc.toFixed(2));
     console.log(verificarImc(imc));
-}
-
-main();
+})();
