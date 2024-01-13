@@ -43,3 +43,4 @@ const jose = new Pessoa('jose', 70, 1.75);
 console.log(jose);
 console.log(jose.calcularImc());
 console.log(jose.verificarImc());
+console.log(jose.nome)
